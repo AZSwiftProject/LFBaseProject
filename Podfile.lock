@@ -1,0 +1,74 @@
+PODS:
+  - AnyImageKit (0.14.6):
+    - AnyImageKit/Capture (= 0.14.6)
+    - AnyImageKit/Core (= 0.14.6)
+    - AnyImageKit/Editor (= 0.14.6)
+    - AnyImageKit/Picker (= 0.14.6)
+  - AnyImageKit/Capture (0.14.6):
+    - AnyImageKit/Core
+  - AnyImageKit/Core (0.14.6):
+    - Kingfisher
+    - SnapKit
+  - AnyImageKit/Editor (0.14.6):
+    - AnyImageKit/Core
+  - AnyImageKit/Picker (0.14.6):
+    - AnyImageKit/Core
+  - DYFCodeScanner (1.0.2)
+  - HandyJSON (5.0.2)
+  - JTCalendar (2.2.6)
+  - Kingfisher (7.3.2)
+  - LookinServer (1.0.6)
+  - pop (1.0.11)
+  - SDWebImage (5.13.4):
+    - SDWebImage/Core (= 5.13.4)
+  - SDWebImage/Core (5.13.4)
+  - SGQRCode (4.1.0)
+  - SnapKit (5.6.0)
+
+DEPENDENCIES:
+  - AnyImageKit
+  - DYFCodeScanner
+  - HandyJSON
+  - JTCalendar
+  - Kingfisher
+  - LookinServer
+  - pop (from `https://github.com/facebook/pop.git`)
+  - SDWebImage
+  - SGQRCode
+
+SPEC REPOS:
+  trunk:
+    - AnyImageKit
+    - DYFCodeScanner
+    - HandyJSON
+    - JTCalendar
+    - Kingfisher
+    - LookinServer
+    - SDWebImage
+    - SGQRCode
+    - SnapKit
+
+EXTERNAL SOURCES:
+  pop:
+    :git: https://github.com/facebook/pop.git
+
+CHECKOUT OPTIONS:
+  pop:
+    :commit: 87d1f8b74cdaa4699d7a9f6be1ff5202014c581f
+    :git: https://github.com/facebook/pop.git
+
+SPEC CHECKSUMS:
+  AnyImageKit: 3629639a49027e4cb861f48c60aa77fa6a529478
+  DYFCodeScanner: aa2fc349b8b9034889a6407a5fc0545e53752cee
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  JTCalendar: 1b326e0d59dd1855b52c5f3feb059d2ff953805d
+  Kingfisher: 0086ad83719761ba9b2cdaf6ef4d5b4878cbae23
+  LookinServer: 18155b1e4a08213c236a1dd6b7ca52328a70a1e3
+  pop: ae3ae187018759968252242e175c21f7f9be5dd2
+  SDWebImage: e5cc87bf736e60f49592f307bdf9e157189298a3
+  SGQRCode: 6ad664d63f38f2842503bc5087812c5a3136d924
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+
+PODFILE CHECKSUM: 9434810a7231469af8b87bf297bc677791dfb09f
+
+COCOAPODS: 1.11.3

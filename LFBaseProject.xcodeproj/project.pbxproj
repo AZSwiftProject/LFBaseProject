@@ -1,0 +1,975 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25EC760328187A70FD021D0C /* Pods_LFBaseProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC178B2BEDDE3A1393D82FE /* Pods_LFBaseProject.framework */; };
+		842B41B328B920B800733312 /* LFScanBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 842B41B128B920B800733312 /* LFScanBaseVC.m */; };
+		842B41B428B920B800733312 /* LFScanBaseVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842B41B228B920B800733312 /* LFScanBaseVC.xib */; };
+		842B41B728B920DA00733312 /* LFScanBaseVC+Code1.m in Sources */ = {isa = PBXBuildFile; fileRef = 842B41B628B920DA00733312 /* LFScanBaseVC+Code1.m */; };
+		842B41BD28B9234C00733312 /* LFScanBaseVC+LFScanBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 842B41BC28B9234C00733312 /* LFScanBaseVC+LFScanBaseVC.m */; };
+		842B41C128B923D700733312 /* LFScanVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = 842B41BF28B923D700733312 /* LFScanVC2.m */; };
+		842B41C228B923D700733312 /* LFScanVC2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842B41C028B923D700733312 /* LFScanVC2.xib */; };
+		842B41C428B925A500733312 /* DYFCodeScanner.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 842B41C328B925A500733312 /* DYFCodeScanner.bundle */; };
+		842B41CE28B9BA9900733312 /* LFDeviceGrantedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 842B41CC28B9BA9900733312 /* LFDeviceGrantedVC.m */; };
+		842B41CF28B9BA9900733312 /* LFDeviceGrantedVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842B41CD28B9BA9900733312 /* LFDeviceGrantedVC.xib */; };
+		842B41D228B9BB4F00733312 /* LFDeviceGrantedVC+Camera.m in Sources */ = {isa = PBXBuildFile; fileRef = 842B41D128B9BB4F00733312 /* LFDeviceGrantedVC+Camera.m */; };
+		8438DA7228D4701D005146ED /* OCSectionCodeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8438DA7128D4701D005146ED /* OCSectionCodeVC.m */; };
+		8438DA7828D4A9F5005146ED /* LFWaterFallFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8438DA7728D4A9F5005146ED /* LFWaterFallFlowLayout.swift */; };
+		8438DA7A28D4AB08005146ED /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8438DA7928D4AB08005146ED /* BaseCollectionViewCell.swift */; };
+		8458BE2A28E7F9D60045A590 /* SwiftTempFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8458BE2928E7F9D60045A590 /* SwiftTempFile.swift */; };
+		8458BE2F28E7FA4C0045A590 /* SwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8458BE2D28E7FA4C0045A590 /* SwiftViewController.swift */; };
+		8458BE3028E7FA4C0045A590 /* SwiftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8458BE2E28E7FA4C0045A590 /* SwiftViewController.xib */; };
+		8458BE3328E7FC390045A590 /* JJCarouselView in Frameworks */ = {isa = PBXBuildFile; productRef = 8458BE3228E7FC390045A590 /* JJCarouselView */; };
+		8459092E28B917E700932DB1 /* LFScanVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8459092D28B917E700932DB1 /* LFScanVC.m */; };
+		8486306E28E47F130047306C /* SwiftTool_Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486306D28E47F130047306C /* SwiftTool_Array.swift */; };
+		848D3DA728E6BC420069F332 /* ColletionViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848D3DA628E6BC420069F332 /* ColletionViewController1.swift */; };
+		84B176D128B48B7700F01E21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B176D028B48B7700F01E21 /* AppDelegate.m */; };
+		84B176D428B48B7700F01E21 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B176D328B48B7700F01E21 /* SceneDelegate.m */; };
+		84B176D728B48B7700F01E21 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B176D628B48B7700F01E21 /* ViewController.m */; };
+		84B176DA28B48B7700F01E21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B176D828B48B7700F01E21 /* Main.storyboard */; };
+		84B176DC28B48B7800F01E21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B176DB28B48B7800F01E21 /* Assets.xcassets */; };
+		84B176DF28B48B7800F01E21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B176DD28B48B7800F01E21 /* LaunchScreen.storyboard */; };
+		84B176E228B48B7800F01E21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B176E128B48B7800F01E21 /* main.m */; };
+		84B6169728B7259C00E26B49 /* LFAppShared.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B6169628B7259C00E26B49 /* LFAppShared.m */; };
+		84B6169B28B7269E00E26B49 /* LFBaseFoundationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B6169928B7269E00E26B49 /* LFBaseFoundationVC.m */; };
+		84B6169C28B7269E00E26B49 /* LFBaseFoundationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B6169A28B7269E00E26B49 /* LFBaseFoundationVC.xib */; };
+		84B6169F28B727C400E26B49 /* UIView+TouchCallBack.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B6169E28B727C400E26B49 /* UIView+TouchCallBack.m */; };
+		84B616A328B728E900E26B49 /* LFBaseFoundationVC+AddViewToVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B616A228B728E900E26B49 /* LFBaseFoundationVC+AddViewToVC.m */; };
+		84B616AA28B729E600E26B49 /* LFBaseFounddation2VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B616A828B729E600E26B49 /* LFBaseFounddation2VC.m */; };
+		84B616AB28B729E600E26B49 /* LFBaseFounddation2VC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B616A928B729E600E26B49 /* LFBaseFounddation2VC.xib */; };
+		84B616D828B86FA600E26B49 /* LFBaseViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B616D628B86FA600E26B49 /* LFBaseViewVC.m */; };
+		84B616D928B86FA600E26B49 /* LFBaseViewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B616D728B86FA600E26B49 /* LFBaseViewVC.xib */; };
+		84B616DE28B8702E00E26B49 /* LFCalendarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B616DC28B8702E00E26B49 /* LFCalendarVC.m */; };
+		84B616DF28B8702E00E26B49 /* LFCalendarVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B616DD28B8702E00E26B49 /* LFCalendarVC.xib */; };
+		84B616F228B8707E00E26B49 /* MSSCalendarCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B616E128B8707E00E26B49 /* MSSCalendarCollectionViewCell.m */; };
+		84B616F328B8707E00E26B49 /* MSSCalendarPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B616E328B8707E00E26B49 /* MSSCalendarPopView.m */; };
+		84B616F428B8707E00E26B49 /* MSSCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B616E428B8707E00E26B49 /* MSSCalendarViewController.m */; };
+		84B616F528B8707E00E26B49 /* MSSCalendarCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B616E628B8707E00E26B49 /* MSSCalendarCollectionReusableView.m */; };
+		84B616F628B8707E00E26B49 /* MSSChineseCalendarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B616E728B8707E00E26B49 /* MSSChineseCalendarManager.m */; };
+		84B616F728B8707E00E26B49 /* MSSCalendarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B616EA28B8707E00E26B49 /* MSSCalendarManager.m */; };
+		84B616F828B8707E00E26B49 /* MSSCircleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B616ED28B8707E00E26B49 /* MSSCircleLabel.m */; };
+		84B616F928B8707E00E26B49 /* MSSCalendarHeaderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B616EF28B8707E00E26B49 /* MSSCalendarHeaderModel.m */; };
+		84B616FC28B870D200E26B49 /* LFCalendarVC+MSSCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B616FB28B870D200E26B49 /* LFCalendarVC+MSSCalendarView.m */; };
+		84B616FF28B87E6000E26B49 /* LFCalendarVC+JTCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B616FE28B87E6000E26B49 /* LFCalendarVC+JTCalendarView.m */; };
+		84B6170328B880D500E26B49 /* LFCalendar_JTCalendarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B6170128B880D500E26B49 /* LFCalendar_JTCalendarVC.m */; };
+		84B6170428B880D500E26B49 /* LFCalendar_JTCalendarVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B6170228B880D500E26B49 /* LFCalendar_JTCalendarVC.xib */; };
+		84D46E7128B5CB35009F6272 /* LFBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D46E7028B5CB35009F6272 /* LFBaseVC.m */; };
+		84D46E7728B5CC25009F6272 /* LFBaseModelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D46E7628B5CC25009F6272 /* LFBaseModelVC.m */; };
+		84D46E7A28B5CC44009F6272 /* LFBaseNetworkVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D46E7928B5CC44009F6272 /* LFBaseNetworkVC.m */; };
+		84D46E7D28B5CC5A009F6272 /* LFBaseLogicVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D46E7C28B5CC5A009F6272 /* LFBaseLogicVC.m */; };
+		84D46E8328B5CC86009F6272 /* LFBaseAllConutryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D46E8228B5CC86009F6272 /* LFBaseAllConutryVC.m */; };
+		84D46E8628B5CC96009F6272 /* LFBaseThirdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D46E8528B5CC96009F6272 /* LFBaseThirdVC.m */; };
+		84D46E9328B5D34A009F6272 /* LFBaseAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D46E9128B5D34A009F6272 /* LFBaseAnimationVC.m */; };
+		84D46E9428B5D34A009F6272 /* LFBaseAnimationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D46E9228B5D34A009F6272 /* LFBaseAnimationVC.xib */; };
+		84D46E9C28B5D75A009F6272 /* LFBaseAnimationSmallBigVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D46E9A28B5D75A009F6272 /* LFBaseAnimationSmallBigVC.m */; };
+		84D46E9D28B5D75A009F6272 /* LFBaseAnimationSmallBigVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D46E9B28B5D75A009F6272 /* LFBaseAnimationSmallBigVC.xib */; };
+		84D46EA228B5E5EC009F6272 /* LFBaseTimeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D46EA028B5E5EC009F6272 /* LFBaseTimeVC.m */; };
+		84D46EA328B5E5EC009F6272 /* LFBaseTimeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D46EA128B5E5EC009F6272 /* LFBaseTimeVC.xib */; };
+		84D46EA628B60A70009F6272 /* UIButton+WXD.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D46EA528B60A70009F6272 /* UIButton+WXD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		71601AD968FC0E5E6E301336 /* Pods-LFBaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFBaseProject.release.xcconfig"; path = "Target Support Files/Pods-LFBaseProject/Pods-LFBaseProject.release.xcconfig"; sourceTree = "<group>"; };
+		7EC178B2BEDDE3A1393D82FE /* Pods_LFBaseProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LFBaseProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		842B41B028B920B800733312 /* LFScanBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFScanBaseVC.h; sourceTree = "<group>"; };
+		842B41B128B920B800733312 /* LFScanBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFScanBaseVC.m; sourceTree = "<group>"; };
+		842B41B228B920B800733312 /* LFScanBaseVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LFScanBaseVC.xib; sourceTree = "<group>"; };
+		842B41B528B920DA00733312 /* LFScanBaseVC+Code1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LFScanBaseVC+Code1.h"; sourceTree = "<group>"; };
+		842B41B628B920DA00733312 /* LFScanBaseVC+Code1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LFScanBaseVC+Code1.m"; sourceTree = "<group>"; };
+		842B41BB28B9234C00733312 /* LFScanBaseVC+LFScanBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LFScanBaseVC+LFScanBaseVC.h"; sourceTree = "<group>"; };
+		842B41BC28B9234C00733312 /* LFScanBaseVC+LFScanBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LFScanBaseVC+LFScanBaseVC.m"; sourceTree = "<group>"; };
+		842B41BE28B923D700733312 /* LFScanVC2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFScanVC2.h; sourceTree = "<group>"; };
+		842B41BF28B923D700733312 /* LFScanVC2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFScanVC2.m; sourceTree = "<group>"; };
+		842B41C028B923D700733312 /* LFScanVC2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LFScanVC2.xib; sourceTree = "<group>"; };
+		842B41C328B925A500733312 /* DYFCodeScanner.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DYFCodeScanner.bundle; sourceTree = "<group>"; };
+		842B41CB28B9BA9900733312 /* LFDeviceGrantedVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFDeviceGrantedVC.h; sourceTree = "<group>"; };
+		842B41CC28B9BA9900733312 /* LFDeviceGrantedVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFDeviceGrantedVC.m; sourceTree = "<group>"; };
+		842B41CD28B9BA9900733312 /* LFDeviceGrantedVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LFDeviceGrantedVC.xib; sourceTree = "<group>"; };
+		842B41D028B9BB4F00733312 /* LFDeviceGrantedVC+Camera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LFDeviceGrantedVC+Camera.h"; sourceTree = "<group>"; };
+		842B41D128B9BB4F00733312 /* LFDeviceGrantedVC+Camera.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LFDeviceGrantedVC+Camera.m"; sourceTree = "<group>"; };
+		8438DA5C28D35BFC005146ED /* LFBaseProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LFBaseProject-Bridging-Header.h"; sourceTree = "<group>"; };
+		8438DA7028D4701D005146ED /* OCSectionCodeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCSectionCodeVC.h; sourceTree = "<group>"; };
+		8438DA7128D4701D005146ED /* OCSectionCodeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCSectionCodeVC.m; sourceTree = "<group>"; };
+		8438DA7728D4A9F5005146ED /* LFWaterFallFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFWaterFallFlowLayout.swift; sourceTree = "<group>"; };
+		8438DA7928D4AB08005146ED /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		8458BE2928E7F9D60045A590 /* SwiftTempFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTempFile.swift; sourceTree = "<group>"; };
+		8458BE2D28E7FA4C0045A590 /* SwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftViewController.swift; sourceTree = "<group>"; };
+		8458BE2E28E7FA4C0045A590 /* SwiftViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwiftViewController.xib; sourceTree = "<group>"; };
+		8459092C28B917E700932DB1 /* LFScanVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFScanVC.h; sourceTree = "<group>"; };
+		8459092D28B917E700932DB1 /* LFScanVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFScanVC.m; sourceTree = "<group>"; };
+		8486306D28E47F130047306C /* SwiftTool_Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTool_Array.swift; sourceTree = "<group>"; };
+		848D3DA628E6BC420069F332 /* ColletionViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColletionViewController1.swift; sourceTree = "<group>"; };
+		84B176CC28B48B7700F01E21 /* LFBaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFBaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B176CF28B48B7700F01E21 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84B176D028B48B7700F01E21 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84B176D228B48B7700F01E21 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		84B176D328B48B7700F01E21 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		84B176D528B48B7700F01E21 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84B176D628B48B7700F01E21 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84B176D928B48B7700F01E21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84B176DB28B48B7800F01E21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84B176DE28B48B7800F01E21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84B176E028B48B7800F01E21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B176E128B48B7800F01E21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84B6169528B7259C00E26B49 /* LFAppShared.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFAppShared.h; sourceTree = "<group>"; };
+		84B6169628B7259C00E26B49 /* LFAppShared.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFAppShared.m; sourceTree = "<group>"; };
+		84B6169828B7269E00E26B49 /* LFBaseFoundationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFBaseFoundationVC.h; sourceTree = "<group>"; };
+		84B6169928B7269E00E26B49 /* LFBaseFoundationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFBaseFoundationVC.m; sourceTree = "<group>"; };
+		84B6169A28B7269E00E26B49 /* LFBaseFoundationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LFBaseFoundationVC.xib; sourceTree = "<group>"; };
+		84B6169D28B727C400E26B49 /* UIView+TouchCallBack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+TouchCallBack.h"; sourceTree = "<group>"; };
+		84B6169E28B727C400E26B49 /* UIView+TouchCallBack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+TouchCallBack.m"; sourceTree = "<group>"; };
+		84B616A128B728E900E26B49 /* LFBaseFoundationVC+AddViewToVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LFBaseFoundationVC+AddViewToVC.h"; sourceTree = "<group>"; };
+		84B616A228B728E900E26B49 /* LFBaseFoundationVC+AddViewToVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LFBaseFoundationVC+AddViewToVC.m"; sourceTree = "<group>"; };
+		84B616A728B729E600E26B49 /* LFBaseFounddation2VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFBaseFounddation2VC.h; sourceTree = "<group>"; };
+		84B616A828B729E600E26B49 /* LFBaseFounddation2VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFBaseFounddation2VC.m; sourceTree = "<group>"; };
+		84B616A928B729E600E26B49 /* LFBaseFounddation2VC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LFBaseFounddation2VC.xib; sourceTree = "<group>"; };
+		84B616D528B86FA600E26B49 /* LFBaseViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFBaseViewVC.h; sourceTree = "<group>"; };
+		84B616D628B86FA600E26B49 /* LFBaseViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFBaseViewVC.m; sourceTree = "<group>"; };
+		84B616D728B86FA600E26B49 /* LFBaseViewVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LFBaseViewVC.xib; sourceTree = "<group>"; };
+		84B616DB28B8702E00E26B49 /* LFCalendarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFCalendarVC.h; sourceTree = "<group>"; };
+		84B616DC28B8702E00E26B49 /* LFCalendarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFCalendarVC.m; sourceTree = "<group>"; };
+		84B616DD28B8702E00E26B49 /* LFCalendarVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LFCalendarVC.xib; sourceTree = "<group>"; };
+		84B616E128B8707E00E26B49 /* MSSCalendarCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSCalendarCollectionViewCell.m; sourceTree = "<group>"; };
+		84B616E228B8707E00E26B49 /* MSSCalendarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSCalendarManager.h; sourceTree = "<group>"; };
+		84B616E328B8707E00E26B49 /* MSSCalendarPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSCalendarPopView.m; sourceTree = "<group>"; };
+		84B616E428B8707E00E26B49 /* MSSCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSCalendarViewController.m; sourceTree = "<group>"; };
+		84B616E528B8707E00E26B49 /* MSSCircleLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSCircleLabel.h; sourceTree = "<group>"; };
+		84B616E628B8707E00E26B49 /* MSSCalendarCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSCalendarCollectionReusableView.m; sourceTree = "<group>"; };
+		84B616E728B8707E00E26B49 /* MSSChineseCalendarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSChineseCalendarManager.m; sourceTree = "<group>"; };
+		84B616E828B8707E00E26B49 /* MSSCalendarHeaderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSCalendarHeaderModel.h; sourceTree = "<group>"; };
+		84B616E928B8707E00E26B49 /* MSSCalendarPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSCalendarPopView.h; sourceTree = "<group>"; };
+		84B616EA28B8707E00E26B49 /* MSSCalendarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSCalendarManager.m; sourceTree = "<group>"; };
+		84B616EB28B8707E00E26B49 /* MSSCalendarCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSCalendarCollectionViewCell.h; sourceTree = "<group>"; };
+		84B616EC28B8707E00E26B49 /* MSSCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSCalendarViewController.h; sourceTree = "<group>"; };
+		84B616ED28B8707E00E26B49 /* MSSCircleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSCircleLabel.m; sourceTree = "<group>"; };
+		84B616EE28B8707E00E26B49 /* MSSCalendarDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSCalendarDefine.h; sourceTree = "<group>"; };
+		84B616EF28B8707E00E26B49 /* MSSCalendarHeaderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSCalendarHeaderModel.m; sourceTree = "<group>"; };
+		84B616F028B8707E00E26B49 /* MSSChineseCalendarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSChineseCalendarManager.h; sourceTree = "<group>"; };
+		84B616F128B8707E00E26B49 /* MSSCalendarCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSCalendarCollectionReusableView.h; sourceTree = "<group>"; };
+		84B616FA28B870D200E26B49 /* LFCalendarVC+MSSCalendarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LFCalendarVC+MSSCalendarView.h"; sourceTree = "<group>"; };
+		84B616FB28B870D200E26B49 /* LFCalendarVC+MSSCalendarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LFCalendarVC+MSSCalendarView.m"; sourceTree = "<group>"; };
+		84B616FD28B87E6000E26B49 /* LFCalendarVC+JTCalendarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LFCalendarVC+JTCalendarView.h"; sourceTree = "<group>"; };
+		84B616FE28B87E6000E26B49 /* LFCalendarVC+JTCalendarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LFCalendarVC+JTCalendarView.m"; sourceTree = "<group>"; };
+		84B6170028B880D500E26B49 /* LFCalendar_JTCalendarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFCalendar_JTCalendarVC.h; sourceTree = "<group>"; };
+		84B6170128B880D500E26B49 /* LFCalendar_JTCalendarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFCalendar_JTCalendarVC.m; sourceTree = "<group>"; };
+		84B6170228B880D500E26B49 /* LFCalendar_JTCalendarVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LFCalendar_JTCalendarVC.xib; sourceTree = "<group>"; };
+		84D46E6F28B5CB35009F6272 /* LFBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFBaseVC.h; sourceTree = "<group>"; };
+		84D46E7028B5CB35009F6272 /* LFBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFBaseVC.m; sourceTree = "<group>"; };
+		84D46E7528B5CC25009F6272 /* LFBaseModelVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFBaseModelVC.h; sourceTree = "<group>"; };
+		84D46E7628B5CC25009F6272 /* LFBaseModelVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFBaseModelVC.m; sourceTree = "<group>"; };
+		84D46E7828B5CC44009F6272 /* LFBaseNetworkVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFBaseNetworkVC.h; sourceTree = "<group>"; };
+		84D46E7928B5CC44009F6272 /* LFBaseNetworkVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFBaseNetworkVC.m; sourceTree = "<group>"; };
+		84D46E7B28B5CC5A009F6272 /* LFBaseLogicVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFBaseLogicVC.h; sourceTree = "<group>"; };
+		84D46E7C28B5CC5A009F6272 /* LFBaseLogicVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFBaseLogicVC.m; sourceTree = "<group>"; };
+		84D46E8128B5CC86009F6272 /* LFBaseAllConutryVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFBaseAllConutryVC.h; sourceTree = "<group>"; };
+		84D46E8228B5CC86009F6272 /* LFBaseAllConutryVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFBaseAllConutryVC.m; sourceTree = "<group>"; };
+		84D46E8428B5CC96009F6272 /* LFBaseThirdVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFBaseThirdVC.h; sourceTree = "<group>"; };
+		84D46E8528B5CC96009F6272 /* LFBaseThirdVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFBaseThirdVC.m; sourceTree = "<group>"; };
+		84D46E8728B5CDE1009F6272 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		84D46E9028B5D34A009F6272 /* LFBaseAnimationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFBaseAnimationVC.h; sourceTree = "<group>"; };
+		84D46E9128B5D34A009F6272 /* LFBaseAnimationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFBaseAnimationVC.m; sourceTree = "<group>"; };
+		84D46E9228B5D34A009F6272 /* LFBaseAnimationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LFBaseAnimationVC.xib; sourceTree = "<group>"; };
+		84D46E9928B5D75A009F6272 /* LFBaseAnimationSmallBigVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFBaseAnimationSmallBigVC.h; sourceTree = "<group>"; };
+		84D46E9A28B5D75A009F6272 /* LFBaseAnimationSmallBigVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFBaseAnimationSmallBigVC.m; sourceTree = "<group>"; };
+		84D46E9B28B5D75A009F6272 /* LFBaseAnimationSmallBigVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LFBaseAnimationSmallBigVC.xib; sourceTree = "<group>"; };
+		84D46E9F28B5E5EC009F6272 /* LFBaseTimeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFBaseTimeVC.h; sourceTree = "<group>"; };
+		84D46EA028B5E5EC009F6272 /* LFBaseTimeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFBaseTimeVC.m; sourceTree = "<group>"; };
+		84D46EA128B5E5EC009F6272 /* LFBaseTimeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LFBaseTimeVC.xib; sourceTree = "<group>"; };
+		84D46EA428B60A70009F6272 /* UIButton+WXD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WXD.h"; sourceTree = "<group>"; };
+		84D46EA528B60A70009F6272 /* UIButton+WXD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WXD.m"; sourceTree = "<group>"; };
+		84D46EA728B61652009F6272 /* LFUIHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFUIHeader.h; sourceTree = "<group>"; };
+		CE56CA85BF2A161028F8F9FF /* Pods-LFBaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFBaseProject.debug.xcconfig"; path = "Target Support Files/Pods-LFBaseProject/Pods-LFBaseProject.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84B176C928B48B7700F01E21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25EC760328187A70FD021D0C /* Pods_LFBaseProject.framework in Frameworks */,
+				8458BE3328E7FC390045A590 /* JJCarouselView in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		556D9E34DAFAC1717B614906 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE56CA85BF2A161028F8F9FF /* Pods-LFBaseProject.debug.xcconfig */,
+				71601AD968FC0E5E6E301336 /* Pods-LFBaseProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		699BCE1DA714B8285D7A0805 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EC178B2BEDDE3A1393D82FE /* Pods_LFBaseProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		842B41CA28B9BA5C00733312 /* 设备权限 */ = {
+			isa = PBXGroup;
+			children = (
+				842B41CB28B9BA9900733312 /* LFDeviceGrantedVC.h */,
+				842B41CC28B9BA9900733312 /* LFDeviceGrantedVC.m */,
+				842B41CD28B9BA9900733312 /* LFDeviceGrantedVC.xib */,
+				842B41D328B9BB5800733312 /* 相机 */,
+			);
+			path = "设备权限";
+			sourceTree = "<group>";
+		};
+		842B41D328B9BB5800733312 /* 相机 */ = {
+			isa = PBXGroup;
+			children = (
+				842B41D028B9BB4F00733312 /* LFDeviceGrantedVC+Camera.h */,
+				842B41D128B9BB4F00733312 /* LFDeviceGrantedVC+Camera.m */,
+			);
+			path = "相机";
+			sourceTree = "<group>";
+		};
+		8438DA5A28D35B7C005146ED /* OC部分 */ = {
+			isa = PBXGroup;
+			children = (
+				84D46E6728B5CA37009F6272 /* 基础控制器 */,
+				84D46E6828B5CA40009F6272 /* 基础视图 */,
+				84D46E6928B5CA48009F6272 /* 基础模型 */,
+				84D46E6A28B5CA76009F6272 /* 基础请求 */,
+				84D46E6B28B5CA7F009F6272 /* 基础算法 */,
+				84D46E6C28B5CA8C009F6272 /* 基础架构 */,
+				84D46E6D28B5CAAE009F6272 /* 基础国际化 */,
+				84D46E6E28B5CAC6009F6272 /* 基础嵌入 */,
+				84D46E8828B5CDE7009F6272 /* 基础分类 */,
+				84D46E8C28B5D2C8009F6272 /* 基础动画 */,
+				84D46E9E28B5E5CC009F6272 /* 基本定时 */,
+				8438DA7028D4701D005146ED /* OCSectionCodeVC.h */,
+				8438DA7128D4701D005146ED /* OCSectionCodeVC.m */,
+			);
+			path = "OC部分";
+			sourceTree = "<group>";
+		};
+		8438DA5B28D35BD4005146ED /* Swift部分 */ = {
+			isa = PBXGroup;
+			children = (
+				848D3DAE28E6BCCA0069F332 /* 轮播图 */,
+				848D3DAC28E6BCA40069F332 /* 逻辑处理 */,
+				8438DA7328D4A9AE005146ED /* 瀑布流布局 */,
+				8458BE2928E7F9D60045A590 /* SwiftTempFile.swift */,
+				8458BE2D28E7FA4C0045A590 /* SwiftViewController.swift */,
+				8458BE2E28E7FA4C0045A590 /* SwiftViewController.xib */,
+				8438DA5C28D35BFC005146ED /* LFBaseProject-Bridging-Header.h */,
+			);
+			path = "Swift部分";
+			sourceTree = "<group>";
+		};
+		8438DA5F28D35CC5005146ED /* SwiftUI部分 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "SwiftUI部分";
+			sourceTree = "<group>";
+		};
+		8438DA7328D4A9AE005146ED /* 瀑布流布局 */ = {
+			isa = PBXGroup;
+			children = (
+				848D3DA628E6BC420069F332 /* ColletionViewController1.swift */,
+				8438DA7728D4A9F5005146ED /* LFWaterFallFlowLayout.swift */,
+				8438DA7928D4AB08005146ED /* BaseCollectionViewCell.swift */,
+			);
+			path = "瀑布流布局";
+			sourceTree = "<group>";
+		};
+		8459092B28B9177500932DB1 /* 扫码 */ = {
+			isa = PBXGroup;
+			children = (
+				842B41B028B920B800733312 /* LFScanBaseVC.h */,
+				842B41B128B920B800733312 /* LFScanBaseVC.m */,
+				842B41B228B920B800733312 /* LFScanBaseVC.xib */,
+				842B41B528B920DA00733312 /* LFScanBaseVC+Code1.h */,
+				842B41B628B920DA00733312 /* LFScanBaseVC+Code1.m */,
+				842B41BB28B9234C00733312 /* LFScanBaseVC+LFScanBaseVC.h */,
+				842B41BC28B9234C00733312 /* LFScanBaseVC+LFScanBaseVC.m */,
+				8459092C28B917E700932DB1 /* LFScanVC.h */,
+				842B41C328B925A500733312 /* DYFCodeScanner.bundle */,
+				8459092D28B917E700932DB1 /* LFScanVC.m */,
+				842B41BE28B923D700733312 /* LFScanVC2.h */,
+				842B41BF28B923D700733312 /* LFScanVC2.m */,
+				842B41C028B923D700733312 /* LFScanVC2.xib */,
+			);
+			path = "扫码";
+			sourceTree = "<group>";
+		};
+		848D3DAC28E6BCA40069F332 /* 逻辑处理 */ = {
+			isa = PBXGroup;
+			children = (
+				848D3DAD28E6BCB40069F332 /* 数组去重 */,
+			);
+			path = "逻辑处理";
+			sourceTree = "<group>";
+		};
+		848D3DAD28E6BCB40069F332 /* 数组去重 */ = {
+			isa = PBXGroup;
+			children = (
+				8486306D28E47F130047306C /* SwiftTool_Array.swift */,
+			);
+			path = "数组去重";
+			sourceTree = "<group>";
+		};
+		848D3DAE28E6BCCA0069F332 /* 轮播图 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "轮播图";
+			sourceTree = "<group>";
+		};
+		84B176C328B48B7700F01E21 = {
+			isa = PBXGroup;
+			children = (
+				84B176CE28B48B7700F01E21 /* LFBaseProject */,
+				84B176CD28B48B7700F01E21 /* Products */,
+				556D9E34DAFAC1717B614906 /* Pods */,
+				699BCE1DA714B8285D7A0805 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84B176CD28B48B7700F01E21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84B176CC28B48B7700F01E21 /* LFBaseProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84B176CE28B48B7700F01E21 /* LFBaseProject */ = {
+			isa = PBXGroup;
+			children = (
+				8438DA5F28D35CC5005146ED /* SwiftUI部分 */,
+				8438DA5B28D35BD4005146ED /* Swift部分 */,
+				8438DA5A28D35B7C005146ED /* OC部分 */,
+				84B176CF28B48B7700F01E21 /* AppDelegate.h */,
+				84B176D028B48B7700F01E21 /* AppDelegate.m */,
+				84B176D228B48B7700F01E21 /* SceneDelegate.h */,
+				84B176D328B48B7700F01E21 /* SceneDelegate.m */,
+				84B176D528B48B7700F01E21 /* ViewController.h */,
+				84B176D628B48B7700F01E21 /* ViewController.m */,
+				84D46E8728B5CDE1009F6272 /* PrefixHeader.pch */,
+				84D46EA728B61652009F6272 /* LFUIHeader.h */,
+				84B176D828B48B7700F01E21 /* Main.storyboard */,
+				84B176DB28B48B7800F01E21 /* Assets.xcassets */,
+				84B176DD28B48B7800F01E21 /* LaunchScreen.storyboard */,
+				84B176E028B48B7800F01E21 /* Info.plist */,
+				84B176E128B48B7800F01E21 /* main.m */,
+			);
+			path = LFBaseProject;
+			sourceTree = "<group>";
+		};
+		84B616A028B728C000E26B49 /* 添加View到VC */ = {
+			isa = PBXGroup;
+			children = (
+				84B616A128B728E900E26B49 /* LFBaseFoundationVC+AddViewToVC.h */,
+				84B616A228B728E900E26B49 /* LFBaseFoundationVC+AddViewToVC.m */,
+				84B616A728B729E600E26B49 /* LFBaseFounddation2VC.h */,
+				84B616A828B729E600E26B49 /* LFBaseFounddation2VC.m */,
+				84B616A928B729E600E26B49 /* LFBaseFounddation2VC.xib */,
+			);
+			path = "添加View到VC";
+			sourceTree = "<group>";
+		};
+		84B616DA28B8700A00E26B49 /* 日历 */ = {
+			isa = PBXGroup;
+			children = (
+				84B616E028B8707E00E26B49 /* MSSCalendar */,
+				84B616DB28B8702E00E26B49 /* LFCalendarVC.h */,
+				84B616DC28B8702E00E26B49 /* LFCalendarVC.m */,
+				84B616FD28B87E6000E26B49 /* LFCalendarVC+JTCalendarView.h */,
+				84B616FE28B87E6000E26B49 /* LFCalendarVC+JTCalendarView.m */,
+				84B6170028B880D500E26B49 /* LFCalendar_JTCalendarVC.h */,
+				84B6170128B880D500E26B49 /* LFCalendar_JTCalendarVC.m */,
+				84B6170228B880D500E26B49 /* LFCalendar_JTCalendarVC.xib */,
+				84B616FA28B870D200E26B49 /* LFCalendarVC+MSSCalendarView.h */,
+				84B616FB28B870D200E26B49 /* LFCalendarVC+MSSCalendarView.m */,
+				84B616DD28B8702E00E26B49 /* LFCalendarVC.xib */,
+			);
+			path = "日历";
+			sourceTree = "<group>";
+		};
+		84B616E028B8707E00E26B49 /* MSSCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				84B616F128B8707E00E26B49 /* MSSCalendarCollectionReusableView.h */,
+				84B616E628B8707E00E26B49 /* MSSCalendarCollectionReusableView.m */,
+				84B616EB28B8707E00E26B49 /* MSSCalendarCollectionViewCell.h */,
+				84B616E128B8707E00E26B49 /* MSSCalendarCollectionViewCell.m */,
+				84B616EE28B8707E00E26B49 /* MSSCalendarDefine.h */,
+				84B616E828B8707E00E26B49 /* MSSCalendarHeaderModel.h */,
+				84B616EF28B8707E00E26B49 /* MSSCalendarHeaderModel.m */,
+				84B616E228B8707E00E26B49 /* MSSCalendarManager.h */,
+				84B616EA28B8707E00E26B49 /* MSSCalendarManager.m */,
+				84B616E928B8707E00E26B49 /* MSSCalendarPopView.h */,
+				84B616E328B8707E00E26B49 /* MSSCalendarPopView.m */,
+				84B616EC28B8707E00E26B49 /* MSSCalendarViewController.h */,
+				84B616E428B8707E00E26B49 /* MSSCalendarViewController.m */,
+				84B616F028B8707E00E26B49 /* MSSChineseCalendarManager.h */,
+				84B616E728B8707E00E26B49 /* MSSChineseCalendarManager.m */,
+				84B616E528B8707E00E26B49 /* MSSCircleLabel.h */,
+				84B616ED28B8707E00E26B49 /* MSSCircleLabel.m */,
+			);
+			path = MSSCalendar;
+			sourceTree = "<group>";
+		};
+		84D46E6728B5CA37009F6272 /* 基础控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				84D46E6F28B5CB35009F6272 /* LFBaseVC.h */,
+				84D46E7028B5CB35009F6272 /* LFBaseVC.m */,
+			);
+			path = "基础控制器";
+			sourceTree = "<group>";
+		};
+		84D46E6828B5CA40009F6272 /* 基础视图 */ = {
+			isa = PBXGroup;
+			children = (
+				842B41CA28B9BA5C00733312 /* 设备权限 */,
+				8459092B28B9177500932DB1 /* 扫码 */,
+				84B616DA28B8700A00E26B49 /* 日历 */,
+				84B616D528B86FA600E26B49 /* LFBaseViewVC.h */,
+				84B616D628B86FA600E26B49 /* LFBaseViewVC.m */,
+				84B616D728B86FA600E26B49 /* LFBaseViewVC.xib */,
+			);
+			path = "基础视图";
+			sourceTree = "<group>";
+		};
+		84D46E6928B5CA48009F6272 /* 基础模型 */ = {
+			isa = PBXGroup;
+			children = (
+				84D46E7528B5CC25009F6272 /* LFBaseModelVC.h */,
+				84D46E7628B5CC25009F6272 /* LFBaseModelVC.m */,
+			);
+			path = "基础模型";
+			sourceTree = "<group>";
+		};
+		84D46E6A28B5CA76009F6272 /* 基础请求 */ = {
+			isa = PBXGroup;
+			children = (
+				84D46E7828B5CC44009F6272 /* LFBaseNetworkVC.h */,
+				84D46E7928B5CC44009F6272 /* LFBaseNetworkVC.m */,
+			);
+			path = "基础请求";
+			sourceTree = "<group>";
+		};
+		84D46E6B28B5CA7F009F6272 /* 基础算法 */ = {
+			isa = PBXGroup;
+			children = (
+				84D46E7B28B5CC5A009F6272 /* LFBaseLogicVC.h */,
+				84D46E7C28B5CC5A009F6272 /* LFBaseLogicVC.m */,
+			);
+			path = "基础算法";
+			sourceTree = "<group>";
+		};
+		84D46E6C28B5CA8C009F6272 /* 基础架构 */ = {
+			isa = PBXGroup;
+			children = (
+				84B616A028B728C000E26B49 /* 添加View到VC */,
+				84B6169528B7259C00E26B49 /* LFAppShared.h */,
+				84B6169628B7259C00E26B49 /* LFAppShared.m */,
+				84B6169828B7269E00E26B49 /* LFBaseFoundationVC.h */,
+				84B6169928B7269E00E26B49 /* LFBaseFoundationVC.m */,
+				84B6169A28B7269E00E26B49 /* LFBaseFoundationVC.xib */,
+			);
+			path = "基础架构";
+			sourceTree = "<group>";
+		};
+		84D46E6D28B5CAAE009F6272 /* 基础国际化 */ = {
+			isa = PBXGroup;
+			children = (
+				84D46E8128B5CC86009F6272 /* LFBaseAllConutryVC.h */,
+				84D46E8228B5CC86009F6272 /* LFBaseAllConutryVC.m */,
+			);
+			path = "基础国际化";
+			sourceTree = "<group>";
+		};
+		84D46E6E28B5CAC6009F6272 /* 基础嵌入 */ = {
+			isa = PBXGroup;
+			children = (
+				84D46E8428B5CC96009F6272 /* LFBaseThirdVC.h */,
+				84D46E8528B5CC96009F6272 /* LFBaseThirdVC.m */,
+			);
+			path = "基础嵌入";
+			sourceTree = "<group>";
+		};
+		84D46E8828B5CDE7009F6272 /* 基础分类 */ = {
+			isa = PBXGroup;
+			children = (
+				84D46EA428B60A70009F6272 /* UIButton+WXD.h */,
+				84D46EA528B60A70009F6272 /* UIButton+WXD.m */,
+				84B6169D28B727C400E26B49 /* UIView+TouchCallBack.h */,
+				84B6169E28B727C400E26B49 /* UIView+TouchCallBack.m */,
+			);
+			path = "基础分类";
+			sourceTree = "<group>";
+		};
+		84D46E8C28B5D2C8009F6272 /* 基础动画 */ = {
+			isa = PBXGroup;
+			children = (
+				84D46E9528B5D3EB009F6272 /* 从小到大 */,
+				84D46E9028B5D34A009F6272 /* LFBaseAnimationVC.h */,
+				84D46E9128B5D34A009F6272 /* LFBaseAnimationVC.m */,
+				84D46E9228B5D34A009F6272 /* LFBaseAnimationVC.xib */,
+			);
+			path = "基础动画";
+			sourceTree = "<group>";
+		};
+		84D46E9528B5D3EB009F6272 /* 从小到大 */ = {
+			isa = PBXGroup;
+			children = (
+				84D46E9928B5D75A009F6272 /* LFBaseAnimationSmallBigVC.h */,
+				84D46E9A28B5D75A009F6272 /* LFBaseAnimationSmallBigVC.m */,
+				84D46E9B28B5D75A009F6272 /* LFBaseAnimationSmallBigVC.xib */,
+			);
+			path = "从小到大";
+			sourceTree = "<group>";
+		};
+		84D46E9E28B5E5CC009F6272 /* 基本定时 */ = {
+			isa = PBXGroup;
+			children = (
+				84D46E9F28B5E5EC009F6272 /* LFBaseTimeVC.h */,
+				84D46EA028B5E5EC009F6272 /* LFBaseTimeVC.m */,
+				84D46EA128B5E5EC009F6272 /* LFBaseTimeVC.xib */,
+			);
+			path = "基本定时";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84B176CB28B48B7700F01E21 /* LFBaseProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B176E528B48B7800F01E21 /* Build configuration list for PBXNativeTarget "LFBaseProject" */;
+			buildPhases = (
+				2A84E2B26487F0175C43280B /* [CP] Check Pods Manifest.lock */,
+				84B176C828B48B7700F01E21 /* Sources */,
+				84B176C928B48B7700F01E21 /* Frameworks */,
+				84B176CA28B48B7700F01E21 /* Resources */,
+				C5096F4986A5DCCB954D0842 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LFBaseProject;
+			packageProductDependencies = (
+				8458BE3228E7FC390045A590 /* JJCarouselView */,
+			);
+			productName = LFBaseProject;
+			productReference = 84B176CC28B48B7700F01E21 /* LFBaseProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84B176C428B48B7700F01E21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					84B176CB28B48B7700F01E21 = {
+						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1340;
+					};
+				};
+			};
+			buildConfigurationList = 84B176C728B48B7700F01E21 /* Build configuration list for PBXProject "LFBaseProject" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84B176C328B48B7700F01E21;
+			packageReferences = (
+				8458BE3128E7FC390045A590 /* XCRemoteSwiftPackageReference "JJCarouselView" */,
+			);
+			productRefGroup = 84B176CD28B48B7700F01E21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84B176CB28B48B7700F01E21 /* LFBaseProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84B176CA28B48B7700F01E21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B6170428B880D500E26B49 /* LFCalendar_JTCalendarVC.xib in Resources */,
+				84B616DF28B8702E00E26B49 /* LFCalendarVC.xib in Resources */,
+				84D46E9428B5D34A009F6272 /* LFBaseAnimationVC.xib in Resources */,
+				842B41C228B923D700733312 /* LFScanVC2.xib in Resources */,
+				8458BE3028E7FA4C0045A590 /* SwiftViewController.xib in Resources */,
+				84B176DF28B48B7800F01E21 /* LaunchScreen.storyboard in Resources */,
+				84B6169C28B7269E00E26B49 /* LFBaseFoundationVC.xib in Resources */,
+				84B616D928B86FA600E26B49 /* LFBaseViewVC.xib in Resources */,
+				842B41CF28B9BA9900733312 /* LFDeviceGrantedVC.xib in Resources */,
+				84D46EA328B5E5EC009F6272 /* LFBaseTimeVC.xib in Resources */,
+				84B616AB28B729E600E26B49 /* LFBaseFounddation2VC.xib in Resources */,
+				842B41B428B920B800733312 /* LFScanBaseVC.xib in Resources */,
+				84B176DC28B48B7800F01E21 /* Assets.xcassets in Resources */,
+				842B41C428B925A500733312 /* DYFCodeScanner.bundle in Resources */,
+				84B176DA28B48B7700F01E21 /* Main.storyboard in Resources */,
+				84D46E9D28B5D75A009F6272 /* LFBaseAnimationSmallBigVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A84E2B26487F0175C43280B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LFBaseProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5096F4986A5DCCB954D0842 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LFBaseProject/Pods-LFBaseProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LFBaseProject/Pods-LFBaseProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LFBaseProject/Pods-LFBaseProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84B176C828B48B7700F01E21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842B41B728B920DA00733312 /* LFScanBaseVC+Code1.m in Sources */,
+				84B616F828B8707E00E26B49 /* MSSCircleLabel.m in Sources */,
+				848D3DA728E6BC420069F332 /* ColletionViewController1.swift in Sources */,
+				84D46E7728B5CC25009F6272 /* LFBaseModelVC.m in Sources */,
+				84D46EA628B60A70009F6272 /* UIButton+WXD.m in Sources */,
+				84B616F728B8707E00E26B49 /* MSSCalendarManager.m in Sources */,
+				8458BE2A28E7F9D60045A590 /* SwiftTempFile.swift in Sources */,
+				84B616F228B8707E00E26B49 /* MSSCalendarCollectionViewCell.m in Sources */,
+				8458BE2F28E7FA4C0045A590 /* SwiftViewController.swift in Sources */,
+				84B616D828B86FA600E26B49 /* LFBaseViewVC.m in Sources */,
+				842B41C128B923D700733312 /* LFScanVC2.m in Sources */,
+				8486306E28E47F130047306C /* SwiftTool_Array.swift in Sources */,
+				84B616F328B8707E00E26B49 /* MSSCalendarPopView.m in Sources */,
+				84B176D728B48B7700F01E21 /* ViewController.m in Sources */,
+				84B176D128B48B7700F01E21 /* AppDelegate.m in Sources */,
+				84D46E7A28B5CC44009F6272 /* LFBaseNetworkVC.m in Sources */,
+				84B176E228B48B7800F01E21 /* main.m in Sources */,
+				84B616A328B728E900E26B49 /* LFBaseFoundationVC+AddViewToVC.m in Sources */,
+				84B616F428B8707E00E26B49 /* MSSCalendarViewController.m in Sources */,
+				84B616FC28B870D200E26B49 /* LFCalendarVC+MSSCalendarView.m in Sources */,
+				8438DA7228D4701D005146ED /* OCSectionCodeVC.m in Sources */,
+				842B41CE28B9BA9900733312 /* LFDeviceGrantedVC.m in Sources */,
+				84D46E7D28B5CC5A009F6272 /* LFBaseLogicVC.m in Sources */,
+				84B176D428B48B7700F01E21 /* SceneDelegate.m in Sources */,
+				84B6170328B880D500E26B49 /* LFCalendar_JTCalendarVC.m in Sources */,
+				84B616F928B8707E00E26B49 /* MSSCalendarHeaderModel.m in Sources */,
+				84B6169F28B727C400E26B49 /* UIView+TouchCallBack.m in Sources */,
+				842B41D228B9BB4F00733312 /* LFDeviceGrantedVC+Camera.m in Sources */,
+				84B6169728B7259C00E26B49 /* LFAppShared.m in Sources */,
+				84B616FF28B87E6000E26B49 /* LFCalendarVC+JTCalendarView.m in Sources */,
+				84B616DE28B8702E00E26B49 /* LFCalendarVC.m in Sources */,
+				8438DA7828D4A9F5005146ED /* LFWaterFallFlowLayout.swift in Sources */,
+				84D46EA228B5E5EC009F6272 /* LFBaseTimeVC.m in Sources */,
+				84B616F628B8707E00E26B49 /* MSSChineseCalendarManager.m in Sources */,
+				842B41B328B920B800733312 /* LFScanBaseVC.m in Sources */,
+				84D46E9328B5D34A009F6272 /* LFBaseAnimationVC.m in Sources */,
+				84B616F528B8707E00E26B49 /* MSSCalendarCollectionReusableView.m in Sources */,
+				8438DA7A28D4AB08005146ED /* BaseCollectionViewCell.swift in Sources */,
+				84D46E8328B5CC86009F6272 /* LFBaseAllConutryVC.m in Sources */,
+				84D46E7128B5CB35009F6272 /* LFBaseVC.m in Sources */,
+				84B616AA28B729E600E26B49 /* LFBaseFounddation2VC.m in Sources */,
+				84B6169B28B7269E00E26B49 /* LFBaseFoundationVC.m in Sources */,
+				84D46E8628B5CC96009F6272 /* LFBaseThirdVC.m in Sources */,
+				842B41BD28B9234C00733312 /* LFScanBaseVC+LFScanBaseVC.m in Sources */,
+				8459092E28B917E700932DB1 /* LFScanVC.m in Sources */,
+				84D46E9C28B5D75A009F6272 /* LFBaseAnimationSmallBigVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84B176D828B48B7700F01E21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84B176D928B48B7700F01E21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84B176DD28B48B7800F01E21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84B176DE28B48B7800F01E21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84B176E328B48B7800F01E21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84B176E428B48B7800F01E21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84B176E628B48B7800F01E21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE56CA85BF2A161028F8F9FF /* Pods-LFBaseProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P828QSBC4B;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LFBaseProject/PrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LFBaseProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.base.LFBaseProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "LFBaseProject/Swift部分/LFBaseProject-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84B176E728B48B7800F01E21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71601AD968FC0E5E6E301336 /* Pods-LFBaseProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P828QSBC4B;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LFBaseProject/PrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LFBaseProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.base.LFBaseProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "LFBaseProject/Swift部分/LFBaseProject-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84B176C728B48B7700F01E21 /* Build configuration list for PBXProject "LFBaseProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B176E328B48B7800F01E21 /* Debug */,
+				84B176E428B48B7800F01E21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B176E528B48B7800F01E21 /* Build configuration list for PBXNativeTarget "LFBaseProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B176E628B48B7800F01E21 /* Debug */,
+				84B176E728B48B7800F01E21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8458BE3128E7FC390045A590 /* XCRemoteSwiftPackageReference "JJCarouselView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/azq1234/JJCarouselView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8458BE3228E7FC390045A590 /* JJCarouselView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8458BE3128E7FC390045A590 /* XCRemoteSwiftPackageReference "JJCarouselView" */;
+			productName = JJCarouselView;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 84B176C428B48B7700F01E21 /* Project object */;
+}
