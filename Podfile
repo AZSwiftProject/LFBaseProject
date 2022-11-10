@@ -17,4 +17,8 @@ target 'LFBaseProject' do
   pod 'Kingfisher'
   pod 'SDWebImage'
   pod 'AnyImageKit'
+  pod 'SwiftLint'
+  pod 'Toaster'
+  pod 'RxSwift'
+  pod 'RxCocoa'
 end

@@ -18,13 +18,22 @@
 		842B41CE28B9BA9900733312 /* LFDeviceGrantedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 842B41CC28B9BA9900733312 /* LFDeviceGrantedVC.m */; };
 		842B41CF28B9BA9900733312 /* LFDeviceGrantedVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842B41CD28B9BA9900733312 /* LFDeviceGrantedVC.xib */; };
 		842B41D228B9BB4F00733312 /* LFDeviceGrantedVC+Camera.m in Sources */ = {isa = PBXBuildFile; fileRef = 842B41D128B9BB4F00733312 /* LFDeviceGrantedVC+Camera.m */; };
+		842B682A28F1AD9200C5256A /* SwiftMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842B682828F1AD9100C5256A /* SwiftMainViewController.swift */; };
+		842B682B28F1AD9200C5256A /* SwiftMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842B682928F1AD9200C5256A /* SwiftMainViewController.xib */; };
+		842B682E28F1B16400C5256A /* JJCarouselView in Frameworks */ = {isa = PBXBuildFile; productRef = 842B682D28F1B16400C5256A /* JJCarouselView */; };
+		842B683228F1B56400C5256A /* SwiftFLoatBtnVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842B683028F1B56400C5256A /* SwiftFLoatBtnVC.swift */; };
+		842B683328F1B56400C5256A /* SwiftFLoatBtnVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842B683128F1B56400C5256A /* SwiftFLoatBtnVC.xib */; };
+		842B683528F1B6B300C5256A /* HoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842B683428F1B6B300C5256A /* HoverView.swift */; };
 		8438DA7228D4701D005146ED /* OCSectionCodeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8438DA7128D4701D005146ED /* OCSectionCodeVC.m */; };
 		8438DA7828D4A9F5005146ED /* LFWaterFallFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8438DA7728D4A9F5005146ED /* LFWaterFallFlowLayout.swift */; };
 		8438DA7A28D4AB08005146ED /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8438DA7928D4AB08005146ED /* BaseCollectionViewCell.swift */; };
+		8441A96928FDAD2600914CAB /* TextVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8441A96728FDAD2600914CAB /* TextVC.swift */; };
+		8441A96A28FDAD2600914CAB /* TextVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8441A96828FDAD2600914CAB /* TextVC.xib */; };
+		8441A96D28FDADD400914CAB /* Text1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8441A96B28FDADD400914CAB /* Text1VC.swift */; };
+		8441A96E28FDADD400914CAB /* Text1VC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8441A96C28FDADD400914CAB /* Text1VC.xib */; };
+		84578C912910CCAD00562769 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84578C902910CCAD00562769 /* Vehicle.swift */; };
 		8458BE2A28E7F9D60045A590 /* SwiftTempFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8458BE2928E7F9D60045A590 /* SwiftTempFile.swift */; };
 		8458BE2F28E7FA4C0045A590 /* SwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8458BE2D28E7FA4C0045A590 /* SwiftViewController.swift */; };
-		8458BE3028E7FA4C0045A590 /* SwiftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8458BE2E28E7FA4C0045A590 /* SwiftViewController.xib */; };
-		8458BE3328E7FC390045A590 /* JJCarouselView in Frameworks */ = {isa = PBXBuildFile; productRef = 8458BE3228E7FC390045A590 /* JJCarouselView */; };
 		8459092E28B917E700932DB1 /* LFScanVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8459092D28B917E700932DB1 /* LFScanVC.m */; };
 		8486306E28E47F130047306C /* SwiftTool_Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486306D28E47F130047306C /* SwiftTool_Array.swift */; };
 		848D3DA728E6BC420069F332 /* ColletionViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848D3DA628E6BC420069F332 /* ColletionViewController1.swift */; };
@@ -71,6 +80,7 @@
 		84D46EA228B5E5EC009F6272 /* LFBaseTimeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D46EA028B5E5EC009F6272 /* LFBaseTimeVC.m */; };
 		84D46EA328B5E5EC009F6272 /* LFBaseTimeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D46EA128B5E5EC009F6272 /* LFBaseTimeVC.xib */; };
 		84D46EA628B60A70009F6272 /* UIButton+WXD.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D46EA528B60A70009F6272 /* UIButton+WXD.m */; };
+		84DC14002906A02C0008A597 /* StringExtession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DC13FF2906A02C0008A597 /* StringExtession.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,14 +102,23 @@
 		842B41CD28B9BA9900733312 /* LFDeviceGrantedVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LFDeviceGrantedVC.xib; sourceTree = "<group>"; };
 		842B41D028B9BB4F00733312 /* LFDeviceGrantedVC+Camera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LFDeviceGrantedVC+Camera.h"; sourceTree = "<group>"; };
 		842B41D128B9BB4F00733312 /* LFDeviceGrantedVC+Camera.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LFDeviceGrantedVC+Camera.m"; sourceTree = "<group>"; };
+		842B682828F1AD9100C5256A /* SwiftMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMainViewController.swift; sourceTree = "<group>"; };
+		842B682928F1AD9200C5256A /* SwiftMainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwiftMainViewController.xib; sourceTree = "<group>"; };
+		842B683028F1B56400C5256A /* SwiftFLoatBtnVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFLoatBtnVC.swift; sourceTree = "<group>"; };
+		842B683128F1B56400C5256A /* SwiftFLoatBtnVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwiftFLoatBtnVC.xib; sourceTree = "<group>"; };
+		842B683428F1B6B300C5256A /* HoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoverView.swift; sourceTree = "<group>"; };
 		8438DA5C28D35BFC005146ED /* LFBaseProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LFBaseProject-Bridging-Header.h"; sourceTree = "<group>"; };
 		8438DA7028D4701D005146ED /* OCSectionCodeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCSectionCodeVC.h; sourceTree = "<group>"; };
 		8438DA7128D4701D005146ED /* OCSectionCodeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCSectionCodeVC.m; sourceTree = "<group>"; };
 		8438DA7728D4A9F5005146ED /* LFWaterFallFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFWaterFallFlowLayout.swift; sourceTree = "<group>"; };
 		8438DA7928D4AB08005146ED /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		8441A96728FDAD2600914CAB /* TextVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextVC.swift; sourceTree = "<group>"; };
+		8441A96828FDAD2600914CAB /* TextVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextVC.xib; sourceTree = "<group>"; };
+		8441A96B28FDADD400914CAB /* Text1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text1VC.swift; sourceTree = "<group>"; };
+		8441A96C28FDADD400914CAB /* Text1VC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Text1VC.xib; sourceTree = "<group>"; };
+		84578C902910CCAD00562769 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
 		8458BE2928E7F9D60045A590 /* SwiftTempFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTempFile.swift; sourceTree = "<group>"; };
 		8458BE2D28E7FA4C0045A590 /* SwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftViewController.swift; sourceTree = "<group>"; };
-		8458BE2E28E7FA4C0045A590 /* SwiftViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwiftViewController.xib; sourceTree = "<group>"; };
 		8459092C28B917E700932DB1 /* LFScanVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFScanVC.h; sourceTree = "<group>"; };
 		8459092D28B917E700932DB1 /* LFScanVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFScanVC.m; sourceTree = "<group>"; };
 		8486306D28E47F130047306C /* SwiftTool_Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTool_Array.swift; sourceTree = "<group>"; };
@@ -183,6 +202,7 @@
 		84D46EA428B60A70009F6272 /* UIButton+WXD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WXD.h"; sourceTree = "<group>"; };
 		84D46EA528B60A70009F6272 /* UIButton+WXD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WXD.m"; sourceTree = "<group>"; };
 		84D46EA728B61652009F6272 /* LFUIHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFUIHeader.h; sourceTree = "<group>"; };
+		84DC13FF2906A02C0008A597 /* StringExtession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtession.swift; sourceTree = "<group>"; };
 		CE56CA85BF2A161028F8F9FF /* Pods-LFBaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFBaseProject.debug.xcconfig"; path = "Target Support Files/Pods-LFBaseProject/Pods-LFBaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -192,7 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25EC760328187A70FD021D0C /* Pods_LFBaseProject.framework in Frameworks */,
-				8458BE3328E7FC390045A590 /* JJCarouselView in Frameworks */,
+				842B682E28F1B16400C5256A /* JJCarouselView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +256,15 @@
 			path = "相机";
 			sourceTree = "<group>";
 		};
+		842B682F28F1B53D00C5256A /* 浮动按钮 */ = {
+			isa = PBXGroup;
+			children = (
+				842B683028F1B56400C5256A /* SwiftFLoatBtnVC.swift */,
+				842B683128F1B56400C5256A /* SwiftFLoatBtnVC.xib */,
+			);
+			path = "浮动按钮";
+			sourceTree = "<group>";
+		};
 		8438DA5A28D35B7C005146ED /* OC部分 */ = {
 			isa = PBXGroup;
 			children = (
@@ -259,12 +288,18 @@
 		8438DA5B28D35BD4005146ED /* Swift部分 */ = {
 			isa = PBXGroup;
 			children = (
+				84578C922910FFF700562769 /* RXSwift使用 */,
+				84578C8E2910CC7900562769 /* 基础 */,
+				8441A96628FDACDB00914CAB /* 富文本处理 */,
+				842B682F28F1B53D00C5256A /* 浮动按钮 */,
 				848D3DAE28E6BCCA0069F332 /* 轮播图 */,
 				848D3DAC28E6BCA40069F332 /* 逻辑处理 */,
 				8438DA7328D4A9AE005146ED /* 瀑布流布局 */,
 				8458BE2928E7F9D60045A590 /* SwiftTempFile.swift */,
 				8458BE2D28E7FA4C0045A590 /* SwiftViewController.swift */,
-				8458BE2E28E7FA4C0045A590 /* SwiftViewController.xib */,
+				842B683428F1B6B300C5256A /* HoverView.swift */,
+				842B682828F1AD9100C5256A /* SwiftMainViewController.swift */,
+				842B682928F1AD9200C5256A /* SwiftMainViewController.xib */,
 				8438DA5C28D35BFC005146ED /* LFBaseProject-Bridging-Header.h */,
 			);
 			path = "Swift部分";
@@ -285,6 +320,49 @@
 				8438DA7928D4AB08005146ED /* BaseCollectionViewCell.swift */,
 			);
 			path = "瀑布流布局";
+			sourceTree = "<group>";
+		};
+		8441A96628FDACDB00914CAB /* 富文本处理 */ = {
+			isa = PBXGroup;
+			children = (
+				8441A96F28FDADDA00914CAB /* 富文本处理器 */,
+				8441A96728FDAD2600914CAB /* TextVC.swift */,
+				8441A96828FDAD2600914CAB /* TextVC.xib */,
+			);
+			path = "富文本处理";
+			sourceTree = "<group>";
+		};
+		8441A96F28FDADDA00914CAB /* 富文本处理器 */ = {
+			isa = PBXGroup;
+			children = (
+				8441A96B28FDADD400914CAB /* Text1VC.swift */,
+				8441A96C28FDADD400914CAB /* Text1VC.xib */,
+				84DC13FF2906A02C0008A597 /* StringExtession.swift */,
+			);
+			path = "富文本处理器";
+			sourceTree = "<group>";
+		};
+		84578C8E2910CC7900562769 /* 基础 */ = {
+			isa = PBXGroup;
+			children = (
+				84578C8F2910CC9200562769 /* 继承 */,
+			);
+			path = "基础";
+			sourceTree = "<group>";
+		};
+		84578C8F2910CC9200562769 /* 继承 */ = {
+			isa = PBXGroup;
+			children = (
+				84578C902910CCAD00562769 /* Vehicle.swift */,
+			);
+			path = "继承";
+			sourceTree = "<group>";
+		};
+		84578C922910FFF700562769 /* RXSwift使用 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "RXSwift使用";
 			sourceTree = "<group>";
 		};
 		8459092B28B9177500932DB1 /* 扫码 */ = {
@@ -310,6 +388,7 @@
 		848D3DAC28E6BCA40069F332 /* 逻辑处理 */ = {
 			isa = PBXGroup;
 			children = (
+				84BF677228EA911E0067600F /* 密码规则 */,
 				848D3DAD28E6BCB40069F332 /* 数组去重 */,
 			);
 			path = "逻辑处理";
@@ -423,6 +502,13 @@
 				84B616ED28B8707E00E26B49 /* MSSCircleLabel.m */,
 			);
 			path = MSSCalendar;
+			sourceTree = "<group>";
+		};
+		84BF677228EA911E0067600F /* 密码规则 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "密码规则";
 			sourceTree = "<group>";
 		};
 		84D46E6728B5CA37009F6272 /* 基础控制器 */ = {
@@ -566,7 +652,7 @@
 			);
 			name = LFBaseProject;
 			packageProductDependencies = (
-				8458BE3228E7FC390045A590 /* JJCarouselView */,
+				842B682D28F1B16400C5256A /* JJCarouselView */,
 			);
 			productName = LFBaseProject;
 			productReference = 84B176CC28B48B7700F01E21 /* LFBaseProject.app */;
@@ -597,7 +683,7 @@
 			);
 			mainGroup = 84B176C328B48B7700F01E21;
 			packageReferences = (
-				8458BE3128E7FC390045A590 /* XCRemoteSwiftPackageReference "JJCarouselView" */,
+				842B682C28F1B16400C5256A /* XCRemoteSwiftPackageReference "JJCarouselView" */,
 			);
 			productRefGroup = 84B176CD28B48B7700F01E21 /* Products */;
 			projectDirPath = "";
@@ -617,16 +703,19 @@
 				84B616DF28B8702E00E26B49 /* LFCalendarVC.xib in Resources */,
 				84D46E9428B5D34A009F6272 /* LFBaseAnimationVC.xib in Resources */,
 				842B41C228B923D700733312 /* LFScanVC2.xib in Resources */,
-				8458BE3028E7FA4C0045A590 /* SwiftViewController.xib in Resources */,
 				84B176DF28B48B7800F01E21 /* LaunchScreen.storyboard in Resources */,
 				84B6169C28B7269E00E26B49 /* LFBaseFoundationVC.xib in Resources */,
 				84B616D928B86FA600E26B49 /* LFBaseViewVC.xib in Resources */,
 				842B41CF28B9BA9900733312 /* LFDeviceGrantedVC.xib in Resources */,
+				842B683328F1B56400C5256A /* SwiftFLoatBtnVC.xib in Resources */,
 				84D46EA328B5E5EC009F6272 /* LFBaseTimeVC.xib in Resources */,
 				84B616AB28B729E600E26B49 /* LFBaseFounddation2VC.xib in Resources */,
 				842B41B428B920B800733312 /* LFScanBaseVC.xib in Resources */,
 				84B176DC28B48B7800F01E21 /* Assets.xcassets in Resources */,
+				8441A96A28FDAD2600914CAB /* TextVC.xib in Resources */,
+				8441A96E28FDADD400914CAB /* Text1VC.xib in Resources */,
 				842B41C428B925A500733312 /* DYFCodeScanner.bundle in Resources */,
+				842B682B28F1AD9200C5256A /* SwiftMainViewController.xib in Resources */,
 				84B176DA28B48B7700F01E21 /* Main.storyboard in Resources */,
 				84D46E9D28B5D75A009F6272 /* LFBaseAnimationSmallBigVC.xib in Resources */,
 			);
@@ -687,10 +776,12 @@
 				84D46E7728B5CC25009F6272 /* LFBaseModelVC.m in Sources */,
 				84D46EA628B60A70009F6272 /* UIButton+WXD.m in Sources */,
 				84B616F728B8707E00E26B49 /* MSSCalendarManager.m in Sources */,
+				84578C912910CCAD00562769 /* Vehicle.swift in Sources */,
 				8458BE2A28E7F9D60045A590 /* SwiftTempFile.swift in Sources */,
 				84B616F228B8707E00E26B49 /* MSSCalendarCollectionViewCell.m in Sources */,
 				8458BE2F28E7FA4C0045A590 /* SwiftViewController.swift in Sources */,
 				84B616D828B86FA600E26B49 /* LFBaseViewVC.m in Sources */,
+				842B683528F1B6B300C5256A /* HoverView.swift in Sources */,
 				842B41C128B923D700733312 /* LFScanVC2.m in Sources */,
 				8486306E28E47F130047306C /* SwiftTool_Array.swift in Sources */,
 				84B616F328B8707E00E26B49 /* MSSCalendarPopView.m in Sources */,
@@ -705,6 +796,7 @@
 				842B41CE28B9BA9900733312 /* LFDeviceGrantedVC.m in Sources */,
 				84D46E7D28B5CC5A009F6272 /* LFBaseLogicVC.m in Sources */,
 				84B176D428B48B7700F01E21 /* SceneDelegate.m in Sources */,
+				84DC14002906A02C0008A597 /* StringExtession.swift in Sources */,
 				84B6170328B880D500E26B49 /* LFCalendar_JTCalendarVC.m in Sources */,
 				84B616F928B8707E00E26B49 /* MSSCalendarHeaderModel.m in Sources */,
 				84B6169F28B727C400E26B49 /* UIView+TouchCallBack.m in Sources */,
@@ -712,12 +804,15 @@
 				84B6169728B7259C00E26B49 /* LFAppShared.m in Sources */,
 				84B616FF28B87E6000E26B49 /* LFCalendarVC+JTCalendarView.m in Sources */,
 				84B616DE28B8702E00E26B49 /* LFCalendarVC.m in Sources */,
+				8441A96D28FDADD400914CAB /* Text1VC.swift in Sources */,
 				8438DA7828D4A9F5005146ED /* LFWaterFallFlowLayout.swift in Sources */,
+				842B683228F1B56400C5256A /* SwiftFLoatBtnVC.swift in Sources */,
 				84D46EA228B5E5EC009F6272 /* LFBaseTimeVC.m in Sources */,
 				84B616F628B8707E00E26B49 /* MSSChineseCalendarManager.m in Sources */,
 				842B41B328B920B800733312 /* LFScanBaseVC.m in Sources */,
 				84D46E9328B5D34A009F6272 /* LFBaseAnimationVC.m in Sources */,
 				84B616F528B8707E00E26B49 /* MSSCalendarCollectionReusableView.m in Sources */,
+				8441A96928FDAD2600914CAB /* TextVC.swift in Sources */,
 				8438DA7A28D4AB08005146ED /* BaseCollectionViewCell.swift in Sources */,
 				84D46E8328B5CC86009F6272 /* LFBaseAllConutryVC.m in Sources */,
 				84D46E7128B5CB35009F6272 /* LFBaseVC.m in Sources */,
@@ -727,6 +822,7 @@
 				842B41BD28B9234C00733312 /* LFScanBaseVC+LFScanBaseVC.m in Sources */,
 				8459092E28B917E700932DB1 /* LFScanVC.m in Sources */,
 				84D46E9C28B5D75A009F6272 /* LFBaseAnimationSmallBigVC.m in Sources */,
+				842B682A28F1AD9200C5256A /* SwiftMainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -953,9 +1049,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		8458BE3128E7FC390045A590 /* XCRemoteSwiftPackageReference "JJCarouselView" */ = {
+		842B682C28F1B16400C5256A /* XCRemoteSwiftPackageReference "JJCarouselView" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/azq1234/JJCarouselView.git";
+			repositoryURL = "https://github.com/AZSwiftPackAge/JJCarouselView.git";
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 1.0.0;
@@ -964,9 +1060,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		8458BE3228E7FC390045A590 /* JJCarouselView */ = {
+		842B682D28F1B16400C5256A /* JJCarouselView */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 8458BE3128E7FC390045A590 /* XCRemoteSwiftPackageReference "JJCarouselView" */;
+			package = 842B682C28F1B16400C5256A /* XCRemoteSwiftPackageReference "JJCarouselView" */;
 			productName = JJCarouselView;
 		};
 /* End XCSwiftPackageProductDependency section */

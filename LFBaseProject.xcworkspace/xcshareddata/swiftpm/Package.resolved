@@ -3,7 +3,7 @@
     {
       "identity" : "jjcarouselview",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/azq1234/JJCarouselView.git",
+      "location" : "https://github.com/AZSwiftPackAge/JJCarouselView.git",
       "state" : {
         "revision" : "cabe2d04fd3aedebf81ddfddd4e021532386dbfa",
         "version" : "1.0.0"

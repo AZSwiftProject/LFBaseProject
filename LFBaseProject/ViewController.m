@@ -19,7 +19,7 @@
 }
 
 - (void)addChildViewControllers{
-    [self addChildrenViewController:[[SwiftViewController alloc] initWithNibName:@"SwiftViewController" bundle:nil] andTitle:@"Swift 部分" andImageName:@"" andSelectImage:@""];
+    [self addChildrenViewController:[[SwiftViewController alloc]init] andTitle:@"Swift 部分" andImageName:@"" andSelectImage:@""];
     [self addChildrenViewController:[[OCSectionCodeVC alloc] init] andTitle:@"OC 部分" andImageName:@"" andSelectImage:@""];
 }
 
